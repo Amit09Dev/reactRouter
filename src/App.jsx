@@ -39,12 +39,16 @@ function App() {
   const router = createBrowserRouter(
     createRoutesFromElements(
       <Route path="/" element={<Layout />}>
-        <Route path="" element={<Home />} />
-        <Route path="about" element={<About />} />
-        <Route path="contact" element={<Contact />} />
-        <Route path="contact" element={<Contact />} />
-        <Route path="user/:userid" element={<User />} />
-        <Route path="Github" element={<Github />} loader={GithubInfoLoader} />
+        <Route path="/reactRouter/" element={<Home />} />
+        <Route path="/reactRouter/about" element={<About />} />
+        <Route path="/reactRouter/contact" element={<Contact />} />
+        <Route path="/reactRouter/contact" element={<Contact />} />
+        <Route path="/reactRouter/user/:userid" element={<User />} />
+        <Route
+          path="/reactRouter/Github"
+          element={<Github />}
+          loader={GithubInfoLoader}
+        />
       </Route>
     )
   );

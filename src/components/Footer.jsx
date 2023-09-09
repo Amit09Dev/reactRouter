@@ -22,7 +22,7 @@ export default function Footer() {
               <ul className="text-gray-500 font-medium">
                 <li className="mb-4">
                   <NavLink
-                    to="/"
+                    to="/reactRouter/"
                     className={({ isActive }) =>
                       `block py-2 pr-4 pl-3 duration-200 ${
                         isActive ? "text-orange-700" : "text-gray-700"
@@ -34,7 +34,7 @@ export default function Footer() {
                 </li>
                 <li>
                   <NavLink
-                    to="/about"
+                    to="/reactRouter/about"
                     className={({ isActive }) =>
                       `block py-2 pr-4 pl-3 duration-200 hover:underline ${
                         isActive ? "text-orange-700" : "text-gray-700"
@@ -53,7 +53,7 @@ export default function Footer() {
               <ul className="text-gray-500 font-medium">
                 <li className="mb-4">
                   <a
-                    href="https://github.com/hiteshchoudhary"
+                    href="https://github.com/Amit09Dev"
                     className="hover:underline"
                     target="_blank"
                     rel="noreferrer"
